@@ -1,0 +1,14 @@
+.page-change{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px dotted white;
+    border-radius: 5px;
+}
+
+.page-change:hover{
+    border: 1px dotted white !important;
+}
