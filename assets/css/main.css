@@ -3604,6 +3604,9 @@ input, select, textarea {
 					border-bottom-right-radius: 0;
 					border-bottom-left-radius: 0;
 				}
+                  .highlight{
+			background-color: #e9ff32;
+		   }
 
 		@media screen and (max-width: 1280px) {
 
