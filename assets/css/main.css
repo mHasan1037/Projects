@@ -2226,6 +2226,16 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.icons .first{
+		font-size: 16px;
+		border: none !important;
+		color: rgb(209, 207, 207) !important;
+	}
+
+	.icons .first:hover{
+		color: white !important;
+	}
+
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -3604,10 +3614,11 @@ input, select, textarea {
 					border-bottom-right-radius: 0;
 					border-bottom-left-radius: 0;
 				}
-                  .highlight{
+
+		.highlight{
 			color: #756bb1;
 			font-weight: bold;
-		   }
+		}
 
 		@media screen and (max-width: 1280px) {
 
