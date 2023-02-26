@@ -2421,8 +2421,30 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 100%;
+				display: block;
+				margin: 0 auto;
+				width: 80%;
 			}
+		
+		.infogra-external{
+			display: block;
+			width: fit-content;
+			margin: 0 auto;
+			font-size: 14px;
+		}
+
+		.go-home-btn{
+			position: fixed;
+			top: 20px;
+			left: 5%;
+			background-color: #D77484;
+			padding: 5px 15px;
+			border-radius: 5px;
+			border-bottom: none;
+			font-weight: bold;
+			cursor: pointer;
+			z-index: 100;
+		}
 
 /* List */
 
@@ -3866,3 +3888,24 @@ input, select, textarea {
 	  margin-bottom: 20px;
 	}
   }
+
+
+/*Inforgraphics*/
+
+.inforgra-img{
+	width: 100%;
+}
+
+.inforgra-link{
+	border-bottom: none !important;
+}
+
+.inforgra-title{
+	border-bottom: none !important;
+	line-height: 2px !important;
+	font-size: 16px;
+}
+
+.inforgra-title:hover{
+	color:rgb(13, 59, 28);
+}
