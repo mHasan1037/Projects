@@ -145,22 +145,38 @@
 							<section id="cta" class="main special">
 								<header class="major">
 									<h2>Features</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<ul class="features-options">
+										<li>Chinese Americans March in Austin, Call for Withdraw of Bills
+											<br>
+											<a href="https://www.reportingtexas.com/chinese-american-march-in-austin-calls-for-withdraw-of-bills/">https://www.reportingtexas.com/chinese-american-march-in-austin-calls-for-withdraw-of-bills/</a>
+										</li>
+										<li>UT Bans TikTok Due to Security Concerns, But Some Professors Wary
+											<br>
+											<a href="https://www.reportingtexas.com/citing-cybersecurity-risks-ut-bans-tiktok-but-some-professors-wary/">https://www.reportingtexas.com/citing-cybersecurity-risks-ut-bans-tiktok-but-some-professors-wary/</a>
+										</li>
+										<li>How Asian Texans Are Working to Improve Their Community’s Political Engagement, Representation
+											<br>
+											<a href="https://www.reportingtexas.com/how-asian-texans-are-working-to-improve-their-communitys-political-engagement-representation/">https://www.reportingtexas.com/how-asian-texans-are-working-to-improve-their-communitys-political-engagement-representation/</a>
+										</li>
+										<li>Electric Vehicle Charging Set to Expand in Rural Texas in Next Five Years
+											<br>
+											<a href="https://www.reportingtexas.com/electric-vehicle-charging-set-to-expand-in-rural-texas-in-next-five-years/">https://www.reportingtexas.com/electric-vehicle-charging-set-to-expand-in-rural-texas-in-next-five-years/</a>
+										</li>
+									</ul>
 								</header>
-								<footer class="major">
+								<!-- <footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button primary">Get Started</a></li>
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer> -->
 							</section>
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
+						<!-- <section>
 							<h2>Aliquam sed mauris</h2>
 							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
 							<ul class="actions">
@@ -183,13 +199,18 @@
 								<li><a href="https://www.linkedin.com/in/jinpeng-li-%E6%9D%8E%E9%87%91%E6%9C%8B-73b9b6191/" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
 								<li><a href="mailto:jinpeng.business@gmail.com" class="icon fa fa-envelope alt"><span class="label">jinpeng.business@gmail.com</span></a></li>
 							</ul>
-						</section>
-						<p class="copyright">&copy; Jinpeng Li </a>.</p>
+						</section> -->
+						<p class="copyright">&copy; Jinpeng Li <span id="current-year"></span></p>
 					</footer>
 
 			</div>
 
 		<!-- Scripts -->
+		    <script>
+				const currentYear = new Date().getFullYear();
+				const yearElement = document.getElementById('current-year');
+				yearElement.textContent = currentYear;
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
