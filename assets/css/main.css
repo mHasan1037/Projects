@@ -2429,7 +2429,7 @@ input, select, textarea {
 		.infogra-external{
 			display: block;
 			width: fit-content;
-			margin: 0 auto;
+			margin: 0 auto 15px;
 			font-size: 14px;
 		}
 
