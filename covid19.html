@@ -32,97 +32,43 @@
 
 						<!-- Content -->
 							<section id="content" class="main">
+
                                 <p>
-                                    After obtaining his physics doctorate in physics degree from an Ivy League institution, Leo Zheng found it challenging to secure a job in the U.S. For eight months, he repeated the same routine every day: waking up early, browsing through LinkedIn, and submitting a job application every thirty minutes. As he grew increasingly hopeless and contemplated returning to China, he received an unexpected offer from Apple.
+                                    In this series of data visualizations on COVID, I primarily utilized the ggplot2, scales, and patchwork packages in R for presentation. The data focuses on the daily COVID timeline data for cases and deaths in each US state and territory, sourced from The New York Times. Prior to visualization, a cleaning process was conducted.
                                 </p>
                                 <p>
-                                    But this still did not guarantee that he could stay and work in the U.S. 
+                                    To create graphic panels containing multiple charts, I employed the patchwork package. Additionally, I calculated the seven-day rolling averages for daily reported COVID cases and deaths for each state and territory. Subsequently, I filtered the timeline data to include only the states with a population of more than 15 million.
                                 </p>
+                                
+
+                                <span class="image main">
+                                    <img src="images/daily_reported_deaths.webp" alt="" />
+                                </span>
+
                                 <p>
-                                    In the 2022 fiscal year, over 478,000 individuals like Zheng submitted their H-1B visa petitions to the U.S. Citizenship and Immigration Services (USCIS), the federal agency that awards H-1B visas. Because of the  overwhelming number of H-1B applications, the agency conducts a lottery system to determine which applications they will review. Ultimately, only 26.36% of the applicants qualified for review, a percentage that continues to decrease year after year.
+                                    In the next set of charts, I aim to study the confirmed cases and death cases in Texas due to COVID and combine them into a single chart.
                                 </p>
 
                                 <span class="image main">
-                                    <img src="images/nations.gif" alt="" />
+                                    <img src="images/COVID_19_in_Texas.webp" alt="" />
                                 </span>
 
-                                <br>
-                                <br>
                                 <p>
-                                    In 2020, the Trump administration implemented an overhaul of the H-1B visa program by moving the registration process online. This change resulted in a reduction of the petition fees to a mere $10. If an applicant was chosen in the lottery, they would be required to pay all the related visa fees to ensure that their application was reviewed in detail. 
-                                </p>
-                                <p>
-                                    Prior to this change, U.S. employers had to create full petitions for their candidates, which incurred costly fees to file, and then enter a lottery that usually commenced on April 1st.
-                                </p>
-                                <p>
-                                    ​​The new registration system, however, significantly reduced the barriers to entry, potentially leading to the submission of duplicate applications.
-                                </p>
-                                <p>
-                                    USCIS found that a few companies entered the same applicants into the lottery multiple times to artificially increase their chances of winning a visa. This caused a record-high demand of 781,000 entries for 85,000 visa slots this year.
-                                </p>
-                                <p>
-                                    “Many individuals attempted to game the system by submitting multiple applications through different companies, causing a massive surge of 300,000 additional applications in 2023," said Chuck Guo, an immigration lawyer with six years of experience. "This is unfair and dilutes the chances of others in the lottery."
-                                </p>
-                                <p>
-                                    After graduation, international students typically use their "Optional Practical Training" to find a job, and then apply for an H-1B visa to legally work in the U.S. The H-1B visa, established in 1990, has been the primary way for companies to hire foreign employees with college degrees, including those who studied in the U.S.
-                                </p>
-                                <p>
-                                    "For the past 30 years, the U.S. has not updated its immigration laws, despite the population doubling and the economy growing twice as large during that time. However, the number of H-1B visas has not significantly increased.” said Guo. 
+                                    Certainly! Trend lines are useful for illustrating the relationship between two variables, especially in scatter plots and bubble plots. To begin, I will create a bubble plot to investigate the correlation between case rates and death rates across US states and territories. Subsequently, I will incorporate a line to depict linear regression. 
                                 </p>
 
+                                <p>
+                                    Considering the large number of data points, I will highlight the key states by labeling their names. Moreover, I will use color and labels to emphasize a subset of the points while keeping the rest of the data visible on the chart.
+                                </p>
+                                
                                 <span class="image main">
-                                    <img src="images/nations.gif" alt="" />
+                                    <img src="images/covid_case_death_rates.webp" alt="" />
                                 </span>
 
-
-                                <br>
-                                <br>
-
-                                <p>
-                                    According to Guo, he has noticed a significant increase in the scrutiny of legal immigrants by the immigration agency, resulting in longer processing times and unresponsive departments.
-                                </p>
-                                <p>
-                                    There are also certain trends among H-1B applicants in terms of the cities and professions they apply for.
-                                </p>
-                                <p>
-                                    Zheng explains that although international students studying STEM majors and eligible for three chances to participate in the H-1B lottery during their OPT period, they often work for positions such as "software engineer" or "data scientist" at large tech companies. In the past five years, over 60% of H-1B applicants have been employed in computer science and data science roles.
-                                </p>
-                                <br>
-
-                                <span class="image main">
-                                    <img src="images/nations.gif" alt="" />
-                                </span>
+                                <i>This visualization was developed under the guidance of Professor Peter Aldhous.</i>
 
                                 
-                                <br>
-                                <br>
-                                <p>
-                                    Additionally, H-1B applicants have relatively high average salaries. For instance, in 2022, H-1B applicants in California earned an average annual salary of over $120,000, with those in Washington and New York following closely behind at $114,000 and $97,000, respectively.
-                                </p>
-                                <p>
-                                    "This is a trend. The H-1B visa requires applicants to have a bachelor's degree or higher, so positions are often located in big cities. And the legal and immigration fees are not small amounts, so it's usually larger companies that apply," said Guo.
-                                </p>
-                                <p>
-                                    Both Texas and the Bay Area had three cities where employers filed more than 10,000 H-1B petitions in 2022. In Texas, the cities were Austin, Plano, and Dallas. Meanwhile, New York City had the highest number of H-1B petitions filed by employers, with over 30,000.
-                                </p>
-                                <p>
-                                    Even if you are selected for the H-1B lottery, it does not guarantee that you will receive the visa.
-                                </p>
-                                <p>
-                                    Zheng encountered a problem when he applied for his H-1B visa. The immigration agency determined that his doctoral degree was not in line with data science and requested additional documentation. 
-                                </p>
-                                <p>
-                                    In recent years, the government has gradually lifted restrictions on H-1B visas, resulting in a higher approval rate during this period. In the 2022 fiscal year, the approval rate was 98%.
-                                </p>
-                                <p>
-                                    The government has proposed increasing the registration fee to $215, which is expected to be effective for next year's lottery. Additionally, the agency intends to draft regulations to prevent future fraud.
-                                </p>
-                                <p>
-                                    To attract global talent, Guo believes that the United States should have a more comprehensive and fair consideration for legal immigrants.
-                                </p>
-                                <br>
-                                <br>
-                                <br>  
+                                
 							</section>
 
 					</div>
